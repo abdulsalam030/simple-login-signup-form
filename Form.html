@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Form</title>
+    <style>
+        .container {
+            margin-top: 100px;
+        }
+        
+        .col-md-4 {
+            background-color: white;
+            height: 380px;
+            width: 400px;
+        }
+        
+        .col-md-4 img {
+            margin-top: 0px;
+        }
+        
+        .second.col-md-4 {
+            background-color: #0000000A;
+            height: 380px;
+            width: 400px;
+        }
+        
+        .container form .mb-2.mt-5.col-sm-9 {
+            border: 1px solid white;
+            border-radius: 3px;
+            border-bottom: 3px solid #34C153;
+            padding: 8.0px 10px;
+            font-size: 13px;
+            margin-left: 13%;
+            display: flex;
+            margin-bottom: 15px;
+            background-color: white;
+            outline: none;
+            margin-left: 30px;
+        }
+        
+        .txt-icon {
+            background: white;
+            color: #34C153;
+            min-width: 42px;
+            margin-top: 7px;
+        }
+        
+        .container form #email {
+            width: 100%;
+            background: white;
+            border-radius: 3px;
+            border: 1px solid white;
+            outline: none;
+            padding: 0px 5px;
+            font-size: 14px;
+        }
+        
+        .container form .mb-3.mt-5.col-sm-9 {
+            border: 1px solid white;
+            border-radius: 3px;
+            border-bottom: 3px solid #34C153;
+            padding: 8.0px 10px;
+            font-size: 13px;
+            margin-left: 13%;
+            display: flex;
+            margin-bottom: 15px;
+            background-color: white;
+            outline: none;
+            margin-left: 30px
+        }
+        
+        .container form #pwd {
+            width: 100%;
+            background: white;
+            border-radius: 3px;
+            border: 1px solid white;
+            outline: none;
+            padding: 0px 5px;
+            font-size: 14px;
+        }
+        
+        .txt-icon {
+            background: white;
+            color: #34C153;
+            min-width: 42px;
+            margin-top: 7px;
+        }
+        
+        .container form ul {
+            margin-top: 20px;
+        }
+        
+        .container form a {
+            text-decoration: none;
+        }
+        
+        .firstlist {
+            display: inline;
+            margin-left: 5px;
+            font-size: 13px;
+            color: #34C153;
+        }
+        
+        .secondlist {
+            display: inline;
+            margin-left: 80px;
+            font-size: 13px;
+            color: #34C153;
+        }
+        
+        .container form .button {
+            margin-left: 45%;
+            width: 200px;
+            height: 41px;
+            transform: translate(-50%);
+            border: none;
+            outline: none;
+            background: #34C153;
+            cursor: pointer;
+            font-size: 13px;
+            color: white;
+            border-radius: 30px;
+        }
+        
+        .container form .form-check.mb-3 {
+            margin-left: 30px;
+            margin-top: -5px;
+            font-size: 14px;
+        }
+        
+        .container .form-group form {
+            margin-top: -30px
+        }
+        
+        .header p {
+            padding-top: 30px;
+            margin-left: 45px;
+            font-weight: 650;
+        }
+        
+        .header p a {
+            text-decoration: none;
+            color: #3c4858;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row justify-content-center">
+            <div class="col-md-4 ">
+                <img src="lgn6.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="second col-md-4   ">
+
+                <header class="header">
+                    <p>
+                        <a href=""> <span class="iconify" data-icon="akar-icons:arrow-left"></span> &nbsp; Go back to Home Page </a>
+                    </p>
+                </header>
+                <div class="form-group">
+                    <form action="/action_page.php">
+                        <div class="mb-2 mt-5 col-sm-9">
+                            <span class="iconify txt-icon" data-icon="healthicons:city-worker"></span>
+                            <input type="email" class="form-control" id="email" placeholder="Phone No./STIN/EmailAddress" name="email">
+                        </div>
+                        <div class="mb-3 mt-5 col-sm-9">
+                            <span class="iconify txt-icon" data-icon="akar-icons:key"></span>
+                            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                        </div>
+                        <div class="form-check mb-3">
+                            <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                      </label>
+                        </div>
+
+
+                        <ul>
+                            <a href="Signup.html"><b><li class="firstlist">Sign Up</li></b></a>
+                            <a href="Forgetpassword.html"><b><li class="secondlist">Forget Password?</li></b></a>
+                        </ul>
+
+
+                        <a href="#"><input type="button" class="button" value="Login"></a>
+                        <!--    <button type="submit" class="btn btn-primary">Submit</button>-->
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+
+</body>
+
+</html>
